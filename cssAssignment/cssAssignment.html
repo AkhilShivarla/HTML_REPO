@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>CSS Assignment</title>
+
+    <style>
+        body{
+            font-kerning: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        .header{
+             background-color:#70bbd9; /*#3bb0de; */
+            text-align: center;
+            padding:20px 0px 30px 0px;
+        }
+        .content{
+            padding: 10px 30px;
+        }
+        .sub-content{
+            display: flex;
+            padding-top:20px ;
+        }
+
+        footer{
+            background-color: #ee4c50;
+            color: #ffffff;
+            padding: 30px 10px 40px 10px ;
+        }
+        @media screen and (max-width: 980px) {
+            .sub-content{
+            display: block;
+        }
+        .sub{
+            padding-top: 30px;
+        }
+        
+}
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header">
+                <!-- <i style="font-size:xx-large;color:yellow;" class="fas fa-envelope-open-text"></i> -->
+                <img alt="email" width="250" height=auto; src="h1.png"/>
+                <div>
+                    <span style="letter-spacing: 5px;font-weight:lighter;">CREATING</span><br/>
+                    <span style="font-weight:bolder;font-size: 40px;"><span style="color: #fff;">email</span> magic</span>
+                </div>
+            </div>
+        </header>
+        
+        <div class="content">
+            <h3>Lorem ipsum dolor sit amet!</h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus
+                adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget
+                accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at
+                erat.
+                <div class="sub-content">
+                    <div class="sub">
+                        <div class="img1" style="padding-bottom: 20px;">
+                            <img width="90%"  src="left.jpg" alt="mailbox">
+                        </div>
+                        <div style="width:90%;">
+                            Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. In
+                    tempus adipiscing felis, sit amet
+                    blandit ipsum volutpat sed. Morbi
+                    porttitor, eget accumsan dictum, nisi
+                    libero ultricies ipsum, in posuere
+                    mauris neque at erat.
+                        </div>
+                    </div>
+                    <div class="sub">
+                        <div class="img2" style="padding-bottom: 20px;">
+                            <img width="90%" src="right.jpg" alt="image">
+                        </div>
+                        <div style="width:90%;">
+                            Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. In
+                        tempus adipiscing felis, sit amet
+                        blandit ipsum volutpat sed. Morbi
+                        porttitor, eget accumsan dictum, nisi
+                        libero ultricies ipsum, in posuere
+                        mauris neque at erat.
+                        </div>
+                    </div>
+                </div>
+                </p>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <div class="left" style="float: left;">
+                ® Akhil Shivarla, INDIA 2021
+                Unsubscribe to this newsletter instantly
+            </div>
+            <div class="right" style="float: right;">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
